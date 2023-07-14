@@ -2,14 +2,16 @@ import { Header } from '@/Pages/Header'
 import { Navbar } from '@/Components/Navbar'
 import { Main } from '@/Pages/Main'
 import { Footer } from '@/Components/Footer'
+import { Form } from '@/Components/Form'
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Form />
+      {/* <Navbar />
       <Header />
       <Main />
-      <Footer />
+      <Footer /> */}
     </>
 
   )

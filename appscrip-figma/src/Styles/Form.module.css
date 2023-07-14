@@ -1,0 +1,76 @@
+.form {
+    width: 380px;
+    flex-shrink: 0;
+    border-radius: 21.442px;
+    background: rgba(30, 28, 34, 0.60);
+    backdrop-filter: blur(5px);
+    border: 1px solid #5D1C8E;
+    margin: auto;
+    padding: 4%;
+}
+
+.googleSignUpBtn {
+    width: 97%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.5px;
+    background: #4285F4;
+    padding: 8.719px 9.608px 8.719px 9px;
+    font-size: 13px;
+}
+
+.googleSignUpBtn>img {
+    width: 15px;
+    border-radius: 2px;
+}
+
+.form>img {
+    width: 97%;
+}
+
+.nameInput {
+    width: 47%;
+    margin: 10px 10.06px 20px 0;
+    border-radius: 5.5px;
+    padding: 5.719px 9.608px 5.84px 9px;
+    font-size: 13px;
+}
+
+.inputt {
+    width: 97%;
+    border-radius: 5.5px;
+    display: flex;
+    gap: 10px;
+    padding: 5.719px 9.608px 5.84px 9px;
+    font-size: 13px;
+}
+
+.timeZone {
+    display: flex;
+    color: #8971A0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.timeZone img {
+    width: 25px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #484848;
+    font-family: 'poppins';
+    margin-top: 10px;
+}
+
+.or img {
+    width: 45%;
+}

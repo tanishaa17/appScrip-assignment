@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Navbar.module.css'
-import { Button } from './Button'
+import { SignupButton } from './Buttons/SignupButton'
 export const Navbar = () => {
     return (
         <div className={styles.navDiv}>
@@ -18,7 +18,7 @@ export const Navbar = () => {
                 </div>
                 <div className={styles.loginDiv}>
                     <p>Login</p>
-                    <Button text='Sign up' />
+                    <SignupButton text='Sign up' />
                 </div>
             </div>
         </div>
