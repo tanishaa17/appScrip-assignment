@@ -1,0 +1,7 @@
+.btn {
+    width: 101px;
+    height: 45px;
+    padding: 3px 10px;
+    border-radius: 16px;
+    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+}
