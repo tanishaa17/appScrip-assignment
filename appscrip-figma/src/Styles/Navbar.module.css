@@ -17,6 +17,14 @@
 
 }
 
+.home {
+    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
 .heading {
     display: flex;
     justify-content: space-between;

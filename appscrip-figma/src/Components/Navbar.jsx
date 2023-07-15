@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className={styles.logo}>lOGO</div>
             <div className={styles.heading}>
                 <div className={styles.navContent}>
-                    <p>Home</p>
+                    <p className={styles.home} >Home</p>
                     <p>About Us</p>
                     <p>Our Blog</p>
                     <p>Support</p>

@@ -34,7 +34,8 @@
 .row1>span:first-child,
 .row2>span:nth-child(2),
 .box2>span:nth-child(10),
-.box6>span:nth-child(3) {
+.box5>span:nth-child(3),
+.box4>span:nth-child(2) {
     display: block;
     color: var(--white-50, #CAC4D2);
     font-size: 30px;
@@ -45,7 +46,7 @@
 .row1>span:nth-child(2),
 .row2>span:nth-child(3),
 .box2>span:nth-child(9),
-.box6>span:nth-child(4) {
+.box5>span:nth-child(4) {
     display: block;
     color: var(--content-100, #BA94DF);
     font-size: 14px;
@@ -62,8 +63,9 @@
 .row1Img2 {
     position: absolute;
     width: 12%;
-    left: 420px;
-    top: 1100px;
+    left: 37%;
+    top: 183%;
+    transform: translate(-50%, -50%);
 }
 
 .imgContainer {
@@ -132,8 +134,8 @@
 
 .box2,
 .box4,
-.box5,
-.box6 {
+.box5 {
+
     height: 526px;
     background: #121212;
 }
@@ -210,23 +212,202 @@
     left: 43%;
 }
 
-.box6 {
+
+.box4 {
+    height: 476px;
+    overflow: hidden;
+}
+
+.galaxy1 {
+    width: 1392px;
+    height: 1392px;
+    border-radius: 50%;
+    border: 1px solid #3e3844;
+    position: relative;
+    bottom: 100%;
+    right: 0.4%;
+}
+
+.galaxy2 {
+    width: 1232px;
+    height: 1232px;
+    border-radius: 50%;
+    border: 1px solid #3e3844;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.galaxy2>img:first-child {
+    position: absolute;
+    top: 38%;
+    left: 0.3%;
+}
+
+.galaxy2>img:nth-child(2) {
+    position: absolute;
+    top: 53%;
+    right: 99%;
+    width: 2%;
+}
+
+.galaxy2>img:nth-child(3) {
+    position: absolute;
+    top: 65%;
+    left: 1.7%;
+    width: 1.5%;
+}
+
+.galaxy2>img:nth-child(4) {
+    position: absolute;
+    top: 38%;
+    left: 98%;
+    width: 2.5%;
+}
+
+.galaxy2>img:nth-child(5) {
+    position: absolute;
+    top: 53%;
+    left: 99.2%;
+    width: 1.3%;
+}
+
+.galaxy2>img:nth-child(6) {
+    position: absolute;
+    top: 65%;
+    right: 1.7%;
+    width: 1.5%;
+}
+
+.galaxy3 {
+    width: 1082px;
+    height: 1082px;
+    border-radius: 50%;
+    border: 1px solid #3e3844;
+    position: absolute;
+    left: 6%;
+    top: 5%;
+}
+
+.galaxy3>img:first-child {
+    position: absolute;
+    top: 43%;
+    right: 98.3%;
+    width: 2.5%;
+}
+
+.galaxy3>img:nth-child(2) {
+    position: absolute;
+    top: 62%;
+    left: .5%;
+    width: 2.5%;
+}
+
+.galaxy3>img:nth-child(3) {
+    position: absolute;
+    top: 31.5%;
+    right: 2%;
+    width: 2.5%;
+}
+
+.galaxy3>img:nth-child(4) {
+    position: absolute;
+    top: 45%;
+    left: 98.5%;
+    width: 2%;
+}
+
+.galaxy3>img:nth-child(5) {
+    position: absolute;
+    top: 59%;
+    left: 98%;
+    width: 3%;
+}
+
+.galaxy4 {
+    width: 932px;
+    height: 932px;
+    border-radius: 50%;
+    border: 1px solid #3e3844;
+    position: absolute;
+    left: 7%;
+    top: 6%;
+}
+
+.galaxy4>img:first-child {
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    width: 2.2%;
+}
+
+.galaxy4>img:nth-child(2) {
+    position: absolute;
+    top: 38%;
+    right: 0%;
+    width: 2.5%;
+}
+
+.box4 {
+    position: relative;
+}
+
+.box4>span:nth-child(2) {
+    width: 572px;
+    position: relative;
+    bottom: 270%;
+    left: 30%;
+    text-align: center;
+    padding-bottom: 0%;
+    line-height: 45px;
+}
+
+.box4>span:nth-child(3),
+.box4>span:nth-child(4),
+.box4>span:nth-child(5) {
+    color: var(--content-100, #BA94DF);
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 3%;
+    position: relative;
+    bottom: 265%;
+    left: 31%;
+}
+
+.box4>span:nth-child(4) {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    background: linear-gradient(135deg, #7526F2 0%, #C826F2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.earnNowBtn {
+    position: relative;
+    bottom: 265%;
+    left: 41%;
+}
+
+.box5 {
     background-image: url("/assets/images/community-page/content.png");
 }
 
-.box6>img:nth-child(2) {
+.box5>img:nth-child(2) {
     position: relative;
     left: 31.5%;
     mix-blend-mode: saturation;
 
 }
 
-.box6>img:nth-child(1) {
+.box5>img:nth-child(1) {
     mix-blend-mode: saturation;
 }
 
-.box6>span:nth-child(3),
-.box6>span:nth-child(4) {
+.box5>span:nth-child(3),
+.box5>span:nth-child(4) {
     width: 772px;
     position: relative;
     bottom: 70%;

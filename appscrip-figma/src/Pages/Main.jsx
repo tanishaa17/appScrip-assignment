@@ -92,24 +92,46 @@ export const Main = () => {
 
 
             <div className={styles.box4}>
-                <div className={styles.galaxy}></div>
-                <div className={styles.galaxy}></div>
-                <div className={styles.galaxy}></div>
-                <div className={styles.galaxy}></div>
-                <div>
-                    <span>Ready to Cash in Your Connections?
-                        Join Our Affiliate Program</span>
-                    <span>Join now and get </span>
-                    <span>7.5%</span>
-                    <span>commission on all creator referrals for the entire year.</span>
-                    <div className={styles.earnNowBtn} >
-                        <ButttonMain text='Earn Now' />
+                <div className={styles.galaxy1}>
+                    <div className={styles.galaxy2}>
+
+                        <img src="/assets/images/galaxy-emoticons/fire.png" alt="fire" />
+                        <img src="/assets/images/galaxy-emoticons/Honeybee.png" alt="Honeybee" />
+                        <img src="/assets/images/galaxy-emoticons/Cowboy-Hat-Face.png" alt="Cowboy-Hat-Face" />
+                        <img src="/assets/images/galaxy-emoticons/Party-Popper.png" alt="Party-Popper" />
+                        <img src="/assets/images/galaxy-emoticons/Crystal-Ball.png" alt="Crystal-Ball" />
+                        <img src="/assets/images/galaxy-emoticons/Wrapped-Gift.png" alt="Wrapped-Gift" />
+
+
+                        <div className={styles.galaxy3}>
+                            <img src="/assets/images/galaxy-emoticons/Smiling-Face-With-Sunglasses.png" alt="Smiling-Face-With-Sunglasses" />
+                            <img src="/assets/images/galaxy-emoticons/Money-Bag.png" alt="Money-Bag" />
+                            <img src="/assets/images/galaxy-emoticons/Globe-Showing-Europe-Africa.png" alt="Globe-Showing-Europe-Africa" />
+                            <img src="/assets/images/galaxy-emoticons/Unicorn.png" alt="Unicorn" />
+                            <img src="/assets/images/galaxy-emoticons/Confetti-Ball.png" alt="Confetti-Ball" />
+
+
+                            <div className={styles.galaxy4}>
+                                <img src="/assets/images/galaxy-emoticons/Star-Struck.png" alt="Star-Struck" />
+                                <img src="/assets/images/galaxy-emoticons/Money-With-Wings.png" alt="Money-With-Wings" />
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <span>Ready to Cash in Your Connections?
+                    Join Our Affiliate Program</span>
+                <span>Join now and get </span>
+                <span>7.5%</span>
+                <span>commission on all creator referrals for the entire year.</span>
+                <div className={styles.earnNowBtn} >
+                    <ButttonMain text='Earn Now' />
+                </div>
+
             </div>
 
 
-            <div className={styles.box6}>
+            <div className={styles.box5}>
                 <img src="/assets/images/community-page/image1.png" alt="img1" />
                 <img src="/assets/images/community-page/image2.png" alt="img2" />
                 <span>Join the ABC Community</span>
