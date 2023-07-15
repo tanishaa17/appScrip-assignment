@@ -10,17 +10,38 @@ export const Main = () => {
                     <div className={styles.row1}>
                         <span>Unlock Your ABC Earning Potential</span>
                         <span>Are you ready to take your earning potential to the next level? With ABC, you have multiple avenues to monetize your content seamlessly. From subscriptions and tips to merchandise sales and NFTS, ABC helps you diversify your revenue streams and maximize your income.</span>
-                        <img src="/assets/images/key-feature/Frame48101613 2.png" alt="phone" />
-                        <img src="/assets/images/key-feature/image15.png" alt="money" />
+                        <img className={styles.row1Img1} src="/assets/images/key-feature/Frame48101613 2.png" alt="phone" />
+                        <img className={styles.row1Img2} src="/assets/images/key-feature/image15.png" alt="money" />
                     </div>
                     <div className={styles.row1}>
                         <span>Boost Your Sales with Built-in E-commerce</span>
                         <span>Take control of your brand and boost your sales with ABC's built-in e-commerce functionality. Showcase and sell your exclusive products, whether it's merchandise, digital downloads, or personalized experiences. Integrate your store effortlessly and turn your creative ideas into profitable ventures.</span>
                         <div className={styles.imgContainer}>
-                            <img src="/assets/images/key-feature/image16.png" alt="img16" />
-                            <img src="/assets/images/key-feature/Rectangle28832.png" alt="modelImg" />
-                            <img src="/assets/images/key-feature/Rectangle28766.png" alt="modelImg" />
-                            <img src="/assets/images/key-feature/Rectangle28767.png" alt="modelImg" />
+                            <div> <img src="/assets/images/key-feature/image16.png" alt="img16" /></div>
+                            <div className={styles.modelsData}>
+                                <img src="/assets/images/key-feature/Rectangle28832.png" alt="modelImg" />
+                                <p>Green bikini</p>
+                                <div className={styles.price}>
+                                    <p>$100</p>
+                                    <img src="/assets/images/key-feature/material-symbols_star.png" alt="ratings" /> <span>4.3</span>
+                                </div>
+                            </div>
+                            <div className={styles.modelsData}>
+                                <img src="/assets/images/key-feature/Rectangle28766.png" alt="modelImg" />
+                                <p>Bikini pairs</p>
+                                <div className={styles.price}>
+                                    <p>$100</p>
+                                    <img src="/assets/images/key-feature/material-symbols_star.png" alt="ratings" /> <span>4.3</span>
+                                </div>
+                            </div>
+                            <div className={styles.modelsData}>
+                                <img src="/assets/images/key-feature/Rectangle28767.png" alt="modelImg" />
+                                <p>Blue bikini</p>
+                                <div className={styles.price}>
+                                    <p>$100</p>
+                                    <img src="/assets/images/key-feature/material-symbols_star.png" alt="ratings" /> <span>4.3</span>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
