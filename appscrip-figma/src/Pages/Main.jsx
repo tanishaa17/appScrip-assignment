@@ -84,7 +84,9 @@ export const Main = () => {
             </div>
 
 
-            <div className={styles.box3}>Missing Img</div>
+            <div className={styles.box3}>
+                <img src="/assets/images/ellipse/modelsImg.png" alt="models" />
+            </div>
 
 
             <div className={styles.box4}>
