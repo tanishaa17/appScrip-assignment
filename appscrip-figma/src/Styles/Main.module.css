@@ -1,0 +1,45 @@
+.mainDiv {
+    background: #121212;
+}
+
+.heading {
+    color: #D9D9D9;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 118%;
+    padding: 3% 2% 1.5% 2%;
+    text-align: center;
+}
+
+.row1Container,
+.row2Container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 2%;
+    align-items: center;
+}
+
+.row1 {
+    width: 636px;
+    height: 473px;
+    border-radius: 28px;
+    background: #191919;
+    border: 2px solid white;
+}
+
+.row2 {
+    width: 545px;
+    height: 424px;
+    border-radius: 28px;
+    background: #1E1C22;
+    border: 2px solid white;
+}
+
+.box2,
+.box4,
+.box5 {
+    height: 473px;
+    background: #121212;
+    border: 2px solid white;
+}

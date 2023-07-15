@@ -1,6 +1,6 @@
 .headers {
     position: relative;
-    height: 620px;
+    height: 700px;
 }
 
 .backgroundImage {
@@ -18,12 +18,14 @@
     position: relative;
     top: 120px;
     left: 350px;
+    z-index: -1;
 }
 
 .headingDiv {
     position: absolute;
     top: 350px;
     left: 100px;
+    z-index: -1;
 }
 
 .heading {
