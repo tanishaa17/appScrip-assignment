@@ -30,11 +30,11 @@ export const Footer = () => {
                 </div>
             </div>
             <div className={styles.socials}>
-                <p>Follow us</p>
-                <img id='socialIcon' src="/assets/socials/facebook.png" alt="facebook" />
-                <img id='socialIcon' src="/assets/socials/twitter.png" alt="twitter" />
-                <img id='socialIcon' src="/assets/socials/instagram.png" alt="instagram" />
-                <img id='socialIcon' src="/assets/socials/youtube.png" alt="youtube" />
+                <p>Follow Us</p>
+                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/facebook.png" alt="facebook" />
+                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/twitter.png" alt="twitter" />
+                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/instagram.png" alt="instagram" />
+                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/youtube.png" alt="youtube" />
             </div>
         </div>
     )
