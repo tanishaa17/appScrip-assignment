@@ -1,9 +1,10 @@
 .btn {
-    width: 101px;
-    height: 45px;
-    padding: 3px 10px;
-    border-radius: 16px;
+    width: 100px;
+    height: 40px;
+    padding: 3px 9px;
+    border-radius: 14px;
     cursor: pointer;
+    border: none;
     background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
 }
 
