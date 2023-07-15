@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Main.module.css'
-import { SignupButton } from '@/Components/Buttons/SignupButton'
+import { ButttonMain } from '@/Components/Buttons/ButttonMain'
 export const Main = () => {
     return (
         <div className={styles.mainDiv}>
@@ -66,13 +66,27 @@ export const Main = () => {
                     </div>
                 </div>
             </div>
+
+
             <div className={styles.box2}>
+                <img src="/assets/images/ellipse/Ellipse-1952.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1955.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1956.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1956.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1955.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1952.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1955.png" alt="ellipse" />
+                <img src="/assets/images/ellipse/Ellipse-1955.png" alt="ellipse" />
                 <span>Don't miss out on ABC’s Incredible features and Opportunities.</span>
                 <span>Join us today and unlock your
                     full potential as a creator</span>
-                <SignupButton text='Join Now' />
+                <ButttonMain className={styles.joinNowBtn} text='Join Now' />
             </div>
+
+
             <div className={styles.box3}>Missing Img</div>
+
+
             <div className={styles.box4}>
                 <div className={styles.galaxy}></div>
                 <div className={styles.galaxy}></div>
@@ -84,16 +98,18 @@ export const Main = () => {
                     <span>Join now and get </span>
                     <span>7.5%</span>
                     <span>commission on all creator referrals for the entire year.</span>
-                    <SignupButton text='Earn Now' />
+                    <ButttonMain text='Earn Now' />
                 </div>
             </div>
+
+
             <div className={styles.box5}>
                 <img src="/assets/images/community-page/image1.png" alt="img1" />
                 <img src="/assets/images/community-page/image2.png" alt="img2" />
                 <span>Join the ABC Community</span>
                 <span>Become part of a vibrant and supportive community of like-minded creators by joining ABC's exclusive platform.
                     Collaborate, learn, and connect with fellow creators who share your passion for adult content creation.</span>
-                <SignupButton text='Learn more' />
+                <ButttonMain text='Learn more' />
             </div>
         </div>
     )
