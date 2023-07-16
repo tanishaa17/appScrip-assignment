@@ -5,6 +5,7 @@ export const Navbar = () => {
     return (
         <div className={styles.navDiv}>
             <div className={styles.logo}>lOGO</div>
+
             <div className={styles.heading}>
                 <div className={styles.navContent}>
                     <p className={styles.home} >Home</p>
@@ -21,6 +22,7 @@ export const Navbar = () => {
                     <SignupButton text='Sign up' />
                 </div>
             </div>
+            <div className={styles.hamburgerMenu}> <img src="/assets/Burger-menu.svg" alt="Burger-menu" /></div>
         </div>
     )
 }

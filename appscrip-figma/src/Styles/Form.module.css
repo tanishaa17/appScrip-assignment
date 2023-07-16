@@ -1,12 +1,12 @@
 .form {
-    width: 350px;
+    width: 370px;
     flex-shrink: 0;
     border-radius: 21.442px;
     background: rgba(30, 28, 34, 0.60);
     backdrop-filter: blur(5px);
     border: 1px solid #5D1C8E;
     margin: auto;
-    padding: 1.5%;
+    padding: 5%;
 }
 
 .googleSignUpBtn {

@@ -15,17 +15,17 @@
 }
 
 .formContainer {
-    position: relative;
-    top: 120px;
-    left: 350px;
-    z-index: -1;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 }
 
 .headingDiv {
     position: absolute;
-    top: 350px;
-    left: 100px;
-    z-index: -1;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
 }
 
 .heading {
@@ -42,4 +42,36 @@
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 525px) {
+    .headers {
+        height: 800px;
+    }
+
+    .backgroundImage {
+        background-image: url("/assets/Banners/motionBackground.png");
+    }
+
+    .headingDiv {
+        top: 20%;
+        left: 50%
+    }
+
+    .heading {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+
+    .subHeading {
+        color: #B27DE5;
+        font-size: 14px;
+    }
+
+    .formContainer {
+        top: 60%;
+        left: 40%;
+        width: 250px;
+    }
 }

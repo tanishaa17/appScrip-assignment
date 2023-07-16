@@ -49,3 +49,25 @@
     gap: 20px;
     padding: 0 20px 0 0;
 }
+
+.hamburgerMenu {
+    display: none;
+}
+
+@media screen and (max-width: 525px) {
+    .navDiv {
+        display: flex;
+        justify-content: space-between;
+        background: rgb(25, 11, 31s);
+    }
+
+    .hamburgerMenu {
+        display: block;
+        padding-right: 3%;
+    }
+
+    .heading {
+        display: none;
+    }
+
+}

@@ -23,7 +23,7 @@ export const Main = () => {
                                 <p>Green bikini</p>
                                 <div className={styles.price}>
                                     <p>$100</p>
-                                    <img src="/assets/images/key-feature/material-symbols_star.png" alt="ratings" /> <span>4.3</span>
+                                    <img src="/assets/images/key-feature/material-symbols_star.png" alt="ratings" /> <span className={styles.ratings}>4.3</span>
                                 </div>
                             </div>
                             <div className={styles.modelsData}>
@@ -127,6 +127,7 @@ export const Main = () => {
                 <div className={styles.earnNowBtn} >
                     <ButttonMain text='Earn Now' />
                 </div>
+
 
             </div>
 

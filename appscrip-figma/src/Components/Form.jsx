@@ -15,7 +15,7 @@ export const Form = () => {
             <input type="text" className={styles.inputt} placeholder='Password*' />
             <div className={styles.timeZone}>
                 (GMT+05:30) india standard Time - Calcutta
-                <img src="/assets/vectors/expand_more.png" alt="" />
+                <img src="/assets/vectors/expand_more.png" alt="expand more" />
             </div>
             <FormButton color="#7426F2" text='Signup as a user' /> <br />
             <div className={styles.timeZone}>
