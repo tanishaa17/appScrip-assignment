@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Footer.module.css'
+import { facebook, instagram, twitter, youtube } from '../../public/assets/config'
 
 export const Footer = () => {
     return (
@@ -31,10 +32,10 @@ export const Footer = () => {
             </div>
             <div className={styles.socials}>
                 <p>Follow Us</p>
-                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/facebook.png" alt="facebook" />
-                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/twitter.png" alt="twitter" />
-                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/instagram.png" alt="instagram" />
-                <img className={styles.socialIcons} id='socialIcon' src="/assets/socials/youtube.png" alt="youtube" />
+                <img className={styles.socialIcons} src={facebook} alt="facebook" />
+                <img className={styles.socialIcons} src={twitter} alt="twitter" />
+                <img className={styles.socialIcons} src={instagram} alt="instagram" />
+                <img className={styles.socialIcons} src={youtube} alt="youtube" />
             </div>
         </div>
     )

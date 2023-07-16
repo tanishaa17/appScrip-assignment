@@ -64,7 +64,7 @@
     position: absolute;
     width: 12%;
     left: 37%;
-    top: 183%;
+    top: 170%;
     transform: translate(-50%, -50%);
 }
 
@@ -472,6 +472,10 @@
         display: block;
     }
 
+    .row1 {
+        position: relative;
+    }
+
     .row1,
     .row2 {
         width: 90%;
@@ -500,8 +504,8 @@
     }
 
     .row1Img2 {
-        top: 180%;
-        left: 73%;
+        top: 70%;
+        left: 75%;
 
     }
 

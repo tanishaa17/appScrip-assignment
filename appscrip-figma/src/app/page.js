@@ -1,7 +1,7 @@
 import { Header } from '@/Pages/Header'
-import { Navbar } from '@/Components/Navbar'
+import { Navbar } from '@/Container/Navbar'
 import { Main } from '@/Pages/Main'
-import { Footer } from '@/Components/Footer'
+import { Footer } from '@/Container/Footer'
 
 export default function Home() {
   return (

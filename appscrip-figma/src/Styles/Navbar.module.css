@@ -28,18 +28,18 @@
 .heading {
     display: flex;
     justify-content: space-between;
-    gap: 200px;
+    gap: 180px;
 }
 
 .navContent {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 56px;
+    gap: 2rem;
 }
 
-#select {
-    background-color: #121212;
+.navContent>p {
+    font-size: .9rem;
 }
 
 .loginDiv {
