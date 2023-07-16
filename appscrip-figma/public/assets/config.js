@@ -1,0 +1,1 @@
+export const fireImg = "/assets/images/galaxy-emoticons/fire.png"

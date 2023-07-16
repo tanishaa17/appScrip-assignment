@@ -7,7 +7,7 @@ export const Header = () => {
         <div className={styles.headers}>
             <div className={styles.backgroundImage} />
             <div className={styles.headingDiv}>
-                <span className={styles.heading}>A Creator’s Paradise</span>
+                <span className={styles.heading}>A Creator's Paradise</span>
                 <span className={styles.subHeading}>Were Creativity Meets Success</span>
             </div>
             <div className={styles.formContainer}>

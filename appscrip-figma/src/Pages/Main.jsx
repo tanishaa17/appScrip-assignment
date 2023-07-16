@@ -95,7 +95,7 @@ export const Main = () => {
                 <div className={styles.galaxy1}>
                     <div className={styles.galaxy2}>
 
-                        <img src="/assets/images/galaxy-emoticons/fire.png" alt="fire" />
+                        <img src="https://i.ibb.co/HXycyL7/Fire.png" alt="Fire" border="0" />
                         <img src="/assets/images/galaxy-emoticons/Honeybee.png" alt="Honeybee" />
                         <img src="/assets/images/galaxy-emoticons/Cowboy-Hat-Face.png" alt="Cowboy-Hat-Face" />
                         <img src="/assets/images/galaxy-emoticons/Party-Popper.png" alt="Party-Popper" />

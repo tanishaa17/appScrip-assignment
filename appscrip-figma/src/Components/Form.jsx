@@ -8,7 +8,7 @@ export const Form = () => {
                 <img id='googleIcon' src="/assets/socials/google.png" alt="google" />
                 <span>Continue with Google</span>
             </div>
-            <img src="/assets/vectors/vector-full.png" alt="vector" />
+            <img src="https://i.ibb.co/Qnj4HVc/Vector-full.png" alt="Vector-full" border="0" />
             <input type="text" className={styles.nameInput} placeholder='First Name*' />
             <input type="text" className={styles.nameInput} placeholder='Last Name*' /> <br />
             <input type="text" className={styles.inputt} placeholder='Email*' /> <br />
@@ -22,9 +22,9 @@ export const Form = () => {
                 By signing up you agree to our Terms & Conditions and Privacy Policy. and confirm that you are at least 18 years old.
             </div>
             <div className={styles.or}>
-                <img src="/assets/vectors/vector-half.png" alt="vector" />
+                <img src="https://i.ibb.co/m9d2Vq3/Vector-half.png" alt="Vector-half" border="0" />
                 <p>or</p>
-                <img src="/assets/vectors/vector-half.png" alt="vector" />
+                <img src="https://i.ibb.co/m9d2Vq3/Vector-half.png" alt="Vector-half" border="0" />
             </div>
 
             <FormButton text='Signup as a creator' color='#5D1C8E' /> <br />
