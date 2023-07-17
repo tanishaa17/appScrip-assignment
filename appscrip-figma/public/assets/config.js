@@ -34,8 +34,8 @@ export const confettiBall = "/assets/images/galaxy-emoticons/Confetti-Ball.png"
 export const starStruck = "/assets/images/galaxy-emoticons/Star-Struck.png"
 export const moneyWings = "/assets/images/galaxy-emoticons/Money-With-Wings.png"
 
-// export const communityImg1 = "/assets/images/community-page/image1.png"
-export const communityImg2 = "/assets/images/community-page/image2.png"
+export const communityImg1 = "https://i.ibb.co/p2wHWcs/Image1.png"
+export const communityImg2 = "https://i.ibb.co/Yytf5ht/Image2.png"
 
 export const facebook = "/assets/socials/facebook.png"
 export const twitter = "/assets/socials/twitter.png"
@@ -46,7 +46,7 @@ export const youtube = "/assets/socials/youtube.png"
 
 
 
-
-
+{/* <a href="https://imgbb.com/"><img src="https://i.ibb.co/p2wHWcs/Image1.png" alt="Image1" border="0"></a> */ }
+{/* <a href="https://imgbb.com/"><img src="https://i.ibb.co/Yytf5ht/Image2.png" alt="Image2" border="0"></a> */ }
 
 
