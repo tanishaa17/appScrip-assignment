@@ -120,9 +120,7 @@ export const Main = () => {
 
                 <span>Ready to Cash in Your Connections?
                     Join Our Affiliate Program</span>
-                <span>Join now and get </span>
-                <span>7.5%</span>
-                <span>commission on all creator referrals for the entire year.</span>
+                <span>Join now and get <span>7.5%</span> commission on all creator referrals for the entire year.</span>
                 <div className={styles.earnNowBtn} >
                     <ButttonMain text='Earn Now' />
                 </div>

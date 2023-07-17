@@ -55,13 +55,13 @@
 
     .headingDiv {
         top: 20%;
-        left: 50%
+        left: 42%;
+        text-align: center;
     }
 
     .heading {
         font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 1.5px;
+        letter-spacing: 1px;
     }
 
     .subHeading {
@@ -71,7 +71,7 @@
 
     .formContainer {
         top: 60%;
-        left: 40%;
-        width: 250px;
+        left: 50%;
+        padding: 2%;
     }
 }

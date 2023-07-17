@@ -220,6 +220,7 @@
 .box4 {
     height: 476px;
     overflow: hidden;
+    position: relative;
 }
 
 .galaxy1 {
@@ -367,9 +368,6 @@
     transform: translate(-50%, -50%);
 }
 
-.box4 {
-    position: relative;
-}
 
 .box4>span:nth-child(2) {
     width: 572px;
@@ -383,31 +381,26 @@
 }
 
 .box4>span:nth-child(3),
-.box4>span:nth-child(4),
-.box4>span:nth-child(5) {
+.box4>span>span:nth-child(1) {
     color: var(--content-100, #BA94DF);
     font-size: 14px;
     line-height: 22px;
     padding-bottom: 3%;
     position: absolute;
     top: 50%;
-    left: 34%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.box4>span:nth-child(4) {
+.box4>span>span:nth-child(1) {
     font-size: 30px;
     font-weight: 500;
-    left: 41%;
-    text-align: center;
     background: linear-gradient(135deg, #7526F2 0%, #C826F2 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.box4>span:nth-child(5) {
-    left: 57%;
+    position: relative;
+    left: 0;
 }
 
 .earnNowBtn {
@@ -542,11 +535,11 @@
     }
 
     .box2>span:nth-child(10) {
-        top: 45%;
+        top: 50%;
     }
 
     .joinNowBtn {
-        top: 60%;
+        top: 65%;
     }
 
     .box2>img {
@@ -593,32 +586,25 @@
         line-height: 25px;
     }
 
-    .box4>span:nth-child(3),
-    .box4>span:nth-child(5) {
+    .box4>span:nth-child(3) {
         font-size: 12px;
         width: 80%;
+        top: 55%;
+        text-align: center;
     }
 
     .box4>span:nth-child(3) {
         left: 50%;
-        top: 50%;
     }
 
 
-    .box4>span:nth-child(4) {
+    .box4>span>span:nth-child(1) {
         font-size: 18px;
-        left: 36%;
-    }
-
-    .box4>span:nth-child(5) {
-        left: 82%;
-        display: inline-block;
-        white-space: pre-wrap;
-        word-wrap: break-word;
+        left: 0;
     }
 
     .earnNowBtn {
-        top: 60%;
+        top: 65%;
     }
 
     .box5 {
@@ -634,7 +620,7 @@
 
     .box5>span:nth-child(3) {
         font-size: 20px;
-        top: 28%;
+        top: 22%;
 
     }
 
@@ -644,6 +630,11 @@
         white-space: pre-wrap;
         word-wrap: break-word;
         width: 90%;
+        top: 50;
+    }
+
+    .learnMoreBtn {
+        top: 72%;
     }
 
 }
