@@ -411,13 +411,14 @@
 }
 
 .box5 {
-    background-image: url("/assets/images/community-page/content.png");
+    background-image: url(https://i.ibb.co/g4CX5dg/Content.png);
     position: relative;
+    background-size: cover;
 }
 
 .box5>img:nth-child(2) {
-    position: relative;
-    left: 31.5%;
+    position: absolute;
+    left: 70%;
     mix-blend-mode: saturation;
 
 }

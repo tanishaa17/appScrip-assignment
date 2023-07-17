@@ -126,8 +126,8 @@ export const Main = () => {
                 </div>
             </div>
             <div className={styles.box5}>
-                <img src="/assets/images/community-page/image1.png" alt="img1" />
-                <img src="/assets/images/community-page/image2.png" alt="img2" />
+                <img src={communityImg1} alt="img1" />
+                <img src={communityImg2} alt="img2" />
                 <span>Join the ABC Community</span>
                 <span>Become part of a vibrant and supportive community of like-minded creators by joining ABC's exclusive platform.
                     Collaborate, learn, and connect with fellow creators who share your passion for adult content creation.</span>
