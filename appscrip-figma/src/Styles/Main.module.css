@@ -453,8 +453,9 @@
 
 @media screen and (max-width: 525px) {
     .heading {
-        font-size: 34px;
+        font-size: 28px;
         font-weight: 600;
+        padding: 35px 10px 35px 10px;
         background: var(--linera-100, linear-gradient(90deg, #5200FF 0%, #FFF 100%));
         background-clip: text;
         -webkit-background-clip: text;
@@ -498,8 +499,9 @@
     }
 
     .row1Img2 {
-        top: 70%;
+        top: 80%;
         left: 75%;
+        width: 20%;
 
     }
 
@@ -562,7 +564,7 @@
         height: 351px;
         width: 351px;
         bottom: 10%;
-        left: 8%;
+        left: 4%;
     }
 
 
@@ -617,6 +619,8 @@
 
     .box5>img {
         height: 100%;
+        width: 30%;
+        object-fit: cover;
     }
 
     .box5>span:nth-child(3) {

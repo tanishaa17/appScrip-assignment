@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 525px) {
     .headers {
-        height: 800px;
+        height: 750px;
     }
 
     .backgroundImage {
@@ -54,7 +54,8 @@
     }
 
     .headingDiv {
-        top: 20%;
+        position: absolute;
+        top: 18%;
         left: 42%;
         text-align: center;
     }
